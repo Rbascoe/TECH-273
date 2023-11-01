@@ -1,0 +1,48 @@
+/* CSS Document */
+/*******************/
+/*
+    Name: Roan Bascoe
+    Class: TECH-273
+    Date: 10/30/23
+    Proj: Project 1
+*/
+/*******************/
+
+@font-face {
+  font-family: titleFont;
+  src: url(/styles/fonts/Peddana/Peddana-Regular.ttf);
+}
+
+div {
+  display: block;
+}
+
+nav {
+  display: inline-block;
+  background-color: rgb(19, 143, 245);
+  width: 100%;
+}
+
+a {
+  display: inline-block;
+  padding: 20px;
+  color: #000;
+  margin-right: 130px;
+  /* font-family: ; */
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(19, 143, 245);
+  color: white;
+  text-align: center;
+}
+
+.page-title {
+  font-family: titleFont;
+  text-align: center;
+  font-size: xx-large;
+}
