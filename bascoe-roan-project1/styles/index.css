@@ -8,16 +8,18 @@
 */
 /*******************/
 
+/* Imported Fonts */
+
 @font-face {
   font-family: "titleFont"; /* Choose a unique name for your font */
-  src: url("fonts/DinastyPersonalUseBold-rgqzA.ttf") format("truetype"); /* Specify the path to your TTF font file */
+  src: url("fonts/DinastyPersonalUseBold-rgqzA.ttf") format("truetype");
   /* You can also specify other font properties such as font-weight and font-style if needed */
 }
 
-/* @font-face {
-  font-family: "";
-  src: url(/fonts/Peddana-Regular.ttf);
-} */
+@font-face {
+  font-family: "quoteFont";
+  src: url("fonts/Peddana-Regular.ttf") format("truetype");
+}
 
 /* General styling */
 
@@ -49,7 +51,7 @@ footer {
   bottom: 0;
   width: auto;
   height: 80px;
-  background-color: rgb(19, 143, 245);
+  background-color: rgb(18, 122, 207);
   justify-content: center;
   margin-top: auto;
   opacity: 0.8;
@@ -58,13 +60,15 @@ footer {
 
 footer p {
   text-align: center;
-  padding-top: 20px;
+  font-size: 20px;
+  padding-top: 10px;
   color: white;
 }
 
 blockquote {
   quotes: initial;
-  font-size: 24px;
+  font-family: "quoteFont";
+  font-size: 32px;
   text-align: center;
 }
 
@@ -75,10 +79,21 @@ blockquote {
 }
 
 .sub-heading {
-  font-size: 32px;
+  font-family: "titleFont";
+  font-size: 36px;
 }
 
 .main-content p {
+  font-size: 24px;
+}
+
+.list-container {
+  text-align: center;
+}
+
+.list {
+  display: inline-block;
+  text-align: left;
   font-size: 24px;
 }
 
@@ -92,16 +107,8 @@ blockquote {
 
 #story-img-top {
   width: 100%;
-  height: 700px;
-  /* padding: 20px; */
-  /* margin: 20px; */
-  /* float: right; */
+  height: 800px;
 }
-
-/* .wrapper p {
-  font-size: 30px;
-  color: black;
-} */
 
 /* GamePlay page styling */
 
