@@ -1,0 +1,78 @@
+/* CSS Document */
+/*******************/
+/*
+    Name: Roan Bascoe
+    Class: TECH-273
+    Date: 11/06/23
+    Proj: Project 2
+*/
+/*******************/
+
+@media screen and (min-width: 992px) {
+  .navbar {
+    display: block;
+  }
+}
+
+body {
+  margin: 0px;
+  background-color: black;
+}
+
+main {
+  margin-left: 10px;
+  margin-right: 10px;
+  /* margin-bottom: 100px; */
+  background-image: url(../../media/images/Hidden-leaf-symbol.jpg);
+}
+
+p {
+  color: white;
+  overflow: hidden;
+}
+
+footer {
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  background-color: rgb(235, 103, 15);
+  opacity: 0.8;
+  border: 1.5px solid black;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a {
+  display: block;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+}
+
+.navbar li {
+  float: left;
+}
+
+/* Creates highlight hover effect for navbar */
+.navbar a:hover {
+  background-color: rgb(1, 1, 194);
+}
+
+.page-title {
+  text-align: center;
+}
+
+.header-img {
+  width: 600px;
+  height: 300px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
