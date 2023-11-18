@@ -1,0 +1,130 @@
+/* CSS Document */
+/*******************/
+/*
+    Name: Roan Bascoe
+    Class: TECH-273
+    Date: 11/16/23
+    Proj: Project 3
+*/
+/*******************/
+
+/* Default CSS */
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  min-height: 100%;
+  background-color: white;
+  box-sizing: inherit;
+  overflow-y: hidden;
+}
+
+main {
+  margin-top: 100px;
+  margin-bottom: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(46, 182, 228);
+  padding: 35px;
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-top: auto;
+  height: 50px;
+  border: 1.5px solid black;
+  border-radius: 8px;
+}
+
+.navbar ul {
+  list-style: none;
+  background-color: rgb(46, 182, 228);
+  border: 1.5px solid black;
+  border-radius: 8px;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a {
+  display: block;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+}
+
+.navbar li {
+  float: left;
+  border: 0.1px solid black;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+/* Creates highlight hover effect for navbar */
+.navbar a:hover {
+  background-color: rgb(200, 200, 253);
+}
+
+.page-title {
+  text-align: center;
+  font-size: 42px;
+}
+
+.page-buttons {
+  margin-top: 20px;
+  text-align: center;
+  padding-right: 40px;
+}
+
+.page-buttons ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.page-buttons li {
+  font-size: 24px;
+  display: inline-block;
+}
+
+.page-buttons button {
+  color: rgb(46, 182, 228);
+  padding: 20px;
+  text-decoration: none;
+}
+
+/* Creates highlight hover effect for page navigation links */
+.page-buttons button:hover {
+  background-color: rgb(200, 200, 253);
+}
+
+.table-container {
+  margin: auto;
+}
+
+#table table,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+  width: 250px;
+}
+
+#table th {
+  background-color: rgb(46, 182, 228);
+}
+
+#table tr:hover {
+  background-color: rgb(200, 200, 253);
+}
