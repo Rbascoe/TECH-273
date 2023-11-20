@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+		Name: Roan Bascoe
+		Class: TECH-273
+		Date: 11/16/23
+		Proj: Project 4
+	-->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Project 4</title>
+    <link rel="stylesheet" href="../styling/css/index.css" />
+    <script src="../scripts/index.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <h1 class="page-title">Home</h1>
+      <nav class="navbar">
+        <ul>
+          <li><a class="disabled-link" href="page2.html" onclick="return false">Info Page 1</a></li>
+          <li><a class="disabled-link"href="page3.html" onclick="return false">Info Page 2</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="form">
+      <section class="content"></section>
+        <div class="form-container">
+            <form>
+                <label for="password">Enter Password:</label>
+                <input type="text" id="password" name="password" placeholder="Enter Your Password">
+                <input type="button" value="Submit" onclick="autheticatePassword()">
+              </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy;2023; Designed by Roan Bascoe</p>
+    </footer>
+  </body>
+</html>
