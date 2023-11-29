@@ -1,0 +1,21 @@
+/* CSS Document */
+/*******************/
+/*
+    Name: Roan Bascoe
+    Class: TECH-273
+    Date: 11/27/23
+    Proj: Exam 2
+*/
+/*******************/
+
+#main-pic {
+  width: 100%;
+  height: 100%;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
