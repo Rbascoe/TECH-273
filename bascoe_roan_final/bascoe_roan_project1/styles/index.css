@@ -1,0 +1,192 @@
+/* CSS Document */
+/*******************/
+/*
+    Name: Roan Bascoe
+    Class: TECH-273
+    Date: 10/30/23
+    Proj: Project 1
+*/
+/*******************/
+
+/* Imported Fonts */
+
+@font-face {
+  font-family: "titleFont"; /* Choose a unique name for your font */
+  src: url("fonts/DinastyPersonalUseBold-rgqzA.ttf") format("truetype");
+  /* You can also specify other font properties such as font-weight and font-style if needed */
+}
+
+@font-face {
+  font-family: "quoteFont";
+  src: url("fonts/Peddana-Regular.ttf") format("truetype");
+}
+
+/* General styling */
+
+div {
+  display: block;
+}
+
+/* nav {
+  display: inline-block;
+  background-color: rgb(19, 143, 245);
+  width: 100%;
+  text-align: center;
+  opacity: 0.8;
+  border: 1.5px solid black;
+} */
+
+/* a {
+  display: inline-block;
+  padding: 20px;
+  color: #000;
+  margin-right: 150px;
+  font-family: "titleFont";
+  font-size: x-large;
+} */
+
+footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: auto;
+  height: 80px;
+  background-color: rgb(46, 182, 228);
+  justify-content: center;
+  margin-top: auto;
+  opacity: 0.8;
+  border: 1.5px solid black;
+}
+
+footer p {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+  color: white;
+}
+
+blockquote {
+  quotes: initial;
+  font-family: "quoteFont";
+  font-size: 32px;
+  text-align: center;
+}
+
+.page-title {
+  font-family: "titleFont";
+  text-align: center;
+  font-size: 48px;
+}
+
+.sub-heading {
+  font-family: "titleFont";
+  font-size: 36px;
+}
+
+.main-content p {
+  font-size: 24px;
+}
+
+.list-container {
+  text-align: center;
+}
+
+.list {
+  display: inline-block;
+  text-align: left;
+  font-size: 24px;
+}
+
+/* Index page styling */
+
+#home-img-top {
+  width: 100%;
+}
+
+/* Story page styling */
+
+#story-img-top {
+  width: 100%;
+  height: 800px;
+}
+
+/* GamePlay page styling */
+
+#gameplay-img-top {
+  width: 100%;
+}
+
+/* Creative Team page styling */
+
+#team-img-top {
+  width: 100%;
+}
+
+/* Reference page styling */
+
+#ref-img-top {
+  width: 100%;
+}
+
+/* navbar styling */
+
+.navbar ul {
+  list-style: none;
+  background-color: rgb(46, 182, 228);
+  border: 1.5px solid black;
+  border-radius: 24px;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a {
+  display: block;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+}
+
+.navbar li {
+  float: left;
+  border: 0.1px solid #0f90a7;
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+nav .dropdown {
+  display: inline-block;
+}
+
+nav .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+nav .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Creates highlight hover effect for navbar */
+
+.navbar a:hover {
+  background-color: #ddd;
+}
+
+nav .dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+nav .dropdown:hover .dropdown-content {
+  display: block;
+}

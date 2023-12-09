@@ -1,0 +1,167 @@
+/* CSS Document */
+/*******************/
+/*
+    Name: Roan Bascoe
+    Class: TECH-273
+    Date: 11/17/23
+    Proj: Project 4
+*/
+/*******************/
+
+/* Default CSS */
+
+/* html {
+  min-height: 100%;
+  box-sizing: border-box;
+} */
+
+body {
+  margin: 2px;
+  min-height: 100%;
+  background-color: #ddd;
+  /* box-sizing: inherit; */
+  overflow: hidden;
+  /* margin-bottom: 40px; */
+}
+
+main {
+  margin-top: 50px;
+  /* margin-bottom: 220%; */
+  margin-left: 15px;
+  margin-right: 15px;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+/* navbar styling */
+
+.navbar ul {
+  list-style: none;
+  background-color: rgb(46, 182, 228);
+  border: 1.5px solid black;
+  border-radius: 24px;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a {
+  display: block;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+}
+
+.navbar li {
+  float: left;
+  border: 0.1px solid #0f90a7;
+  box-sizing: border-box;
+  /* border-radius: 40px; */
+  margin: 20px;
+}
+
+nav .dropdown {
+  display: inline-block;
+}
+
+nav .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+nav .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Creates highlight hover effect for navbar */
+
+.navbar a:hover {
+  background-color: #ddd;
+}
+
+nav .dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+nav .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*  */
+
+.header-img {
+  /* max-width: 600px;
+  max-height: 300px; */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  /* max-width: 100%; */
+  max-height: 100%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 42px;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  background-color: rgb(46, 182, 228);
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  height: auto;
+  border: 1.5px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* footer ul {
+  list-style: none;
+  background-color: rgb(46, 182, 228);
+
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+} */
+
+/* footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer li {
+  float: left;
+  display: inline;
+
+  margin: 10px;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+} */
